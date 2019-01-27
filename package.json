@@ -10,10 +10,10 @@
   "author": "YoshikawaTaiki",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^16.7.18",
+    "@types/react": "^16.7.21",
     "@types/react-dom": "^16.0.11",
-    "@types/react-redux": "^6.0.11",
-    "autoprefixer": "^9.4.3",
+    "@types/react-redux": "^7.0.1",
+    "autoprefixer": "^9.4.6",
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
     "html-loader": "^0.5.5",
@@ -22,18 +22,22 @@
     "node-sass": "^4.11.0",
     "path": "^0.12.7",
     "postcss-loader": "^3.0.0",
-    "prettier": "^1.15.3",
+    "prettier": "^1.16.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "sass-loader": "^7.1.0",
-    "ts-loader": "^5.3.2",
-    "tslint": "^5.12.0",
-    "typescript": "^3.2.2",
-    "webpack": "^4.28.3",
-    "webpack-cli": "^3.1.2",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "typescript-fsa": "^3.0.0-beta-2",
+    "typescript-fsa-reducers": "^1.2.0"
   }
 }
